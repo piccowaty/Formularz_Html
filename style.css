@@ -11,7 +11,7 @@ body {
     background: white;
     padding: 25px;
     border-radius: 12px;
-    width: 300px;
+    width: 350px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     text-align: center;
 }
@@ -21,7 +21,7 @@ h2 {
 }
 
 input, textarea {
-    width: 100%;
+    width: 90%;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 8px;
