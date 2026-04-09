@@ -29,11 +29,11 @@
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-        $imie = htmlspecialchars($_POST["imie"]);
-        $nazwisko = htmlspecialchars($_POST["nazwisko"]);
-        $email = htmlspecialchars($_POST["email"]);
-        $temat = htmlspecialchars($_POST["temat"]);
-        $wiadomosc = htmlspecialchars($_POST["wiadomosc"]);
+        $imie = $_POST["imie"];
+        $nazwisko = $_POST["nazwisko"];
+        $email = $_POST["email"];
+        $temat = $_POST["temat"];
+        $wiadomosc = $_POST["wiadomosc"];
 
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             echo "<p class='error'>❌ Niepoprawny email!</p>";
