@@ -11,7 +11,6 @@ body {
     background: white;
     padding: 25px;
     border-radius: 12px;
-    width: 350px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     text-align: center;
 }
@@ -50,4 +49,11 @@ button:hover {
 a {
     text-decoration: none;
     color: #1fa7d1;
+}
+table{
+    border: 1px solid #178bb0;
+    margin: 0px auto;
+}
+tr:nth-child(even){
+    background-color: lightgray;
 }
